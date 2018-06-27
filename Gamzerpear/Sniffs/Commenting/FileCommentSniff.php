@@ -7,7 +7,7 @@
  * @license   https://github.com/squizlabs/PHP_CodeSniffer/blob/master/licence.txt BSD Licence
  */
 
-namespace PHP_CodeSniffer\Standards\Gamzerpear\Sniffs\Commenting;
+namespace Gamzerpear\Sniffs\Commenting;
 
 use PHP_CodeSniffer\Sniffs\Sniff;
 use PHP_CodeSniffer\Files\File;
@@ -210,7 +210,7 @@ class FileCommentSniff implements Sniff
     {
         $tokens = $phpcsFile->getTokens();
 
-        if (get_class($this) === 'PHP_CodeSniffer\Standards\Gamzerpear\Sniffs\Commenting\FileCommentSniff') {
+        if (get_class($this) === 'Gamzerpear\Sniffs\Commenting\FileCommentSniff') {
             $docBlock = 'file';
         } else {
             $docBlock = 'class';

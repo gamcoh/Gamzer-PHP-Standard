@@ -7,7 +7,7 @@
  * @license   https://github.com/squizlabs/PHP_CodeSniffer/blob/master/licence.txt BSD Licence
  */
 
-namespace PHP_CodeSniffer\Standards\Gamzerpear\Sniffs\ControlStructures;
+namespace Gamzerpear\Sniffs\ControlStructures;
 
 use PHP_CodeSniffer\Sniffs\AbstractPatternSniff;
 
